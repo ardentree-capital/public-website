@@ -1,3 +1,24 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://ardentreecapital.com"
+languageCode = "en-us"
+title = "Ardentree Capital"
+themesDir = "themes"
+theme = "winston"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+paginate = 3
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@ardentreecap"
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addFrame = true
+  addDot = true
